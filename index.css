@@ -89,6 +89,11 @@ button:hover {
     /* z-index: 0; */
 }
 
+button:active {
+    transform: scale(0.95);
+    transition: .3s ease;
+}
+
 #save-el {
     position: relative;
     z-index: 3;
